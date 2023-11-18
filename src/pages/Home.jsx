@@ -60,7 +60,7 @@ const Home = () => {
 
     return (
         <div className='bg-stone-950 text-white h-full pb-14 pt-20'>
-            <div className='pt-24 px-10' name='comingSoon'>
+            <div className='pt-24 px-10' name='nowPlaying'>
                 <h2 className='font-bold text-5xl mb-14'>Now Playing in Theatres</h2>
 
                 <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-x-5 gap-y-12'>

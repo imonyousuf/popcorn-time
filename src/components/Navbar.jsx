@@ -36,8 +36,8 @@ const Navbar = () => {
                             'md:ml-auto text-gray-200 font-bold flex flex-wrap gap-5 items-center text-base justify-center transition-all' +
                             (didScroll ? '' : ' bg-yellow-400 text-stone-900 px-4 p-3 rounded-xl shadow-lg')
                         }>
-                        <Link smooth spy duration={250} to='comingSoon' className='cursor-pointer'>
-                            Coming Soon
+                        <Link smooth spy duration={250} to='nowPlaying' className='cursor-pointer'>
+                            Now Playing
                         </Link>
                         <Link smooth spy duration={250} to='topRated' className='cursor-pointer'>
                             Top Rated
